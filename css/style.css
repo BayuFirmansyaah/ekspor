@@ -2,6 +2,11 @@
 	font-family: 'Poppins','Ubuntu',sans-serif;
 }
 
+.btn-success{
+	background-color: #04BF7B;
+	border: none;
+}
+
 body{
 	background-color: #f5f5ff;
 }
@@ -37,6 +42,54 @@ nav{
 	height: 100%;
 }
 
+.home .container{
+	z-index: 5;
+	color: white;
+}
+
+.tagline{
+	margin-top: 120px;
+	max-width: 650px;
+	font-size: 72px;
+	font-family: 'Ubuntu';
+}
+
+.tagline span{
+	color:#F29F05;
+	font-weight: 600;
+	font-family: 'Poppins';
+	text-transform: capitalize;
+}
+
+.send-mail{
+	padding: 8px 32px;
+	background-color:#04BF7B;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 30px;
+	animation: 2s shake ease-in-out;
+}
+
+.send-mail:hover{
+	background-color:#04BF7B;
+	color: white;
+}
+
+
+@keyframes shake{
+	0%{transform: rotate(-4.5deg)}
+	10%{transform: rotate(4.5deg)}
+	20%{transform: rotate(-4.5deg)}
+	30%{transform: rotate(4.5deg)}
+	40%{transform: rotate(-4.5deg)}
+	50%{transform: rotate(4.5deg)}
+	60%{transform: rotate(-4.5deg)}
+	70%{transform: rotate(4.5deg)}
+	80%{transform: rotate(-4.5deg)}
+	90%{transform: rotate(4.5deg)}
+	100%{transform: rotate(-4.5deg)}
+}
 
 .example-produck .container{
 	padding-top: 30px;
@@ -105,6 +158,10 @@ nav{
 		background-position: center;
 	}
 
+	.tagline{
+		width: 80%;
+		font-size: 42px;
+	}
 
 	.product{
 		height: 430px;
