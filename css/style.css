@@ -159,8 +159,9 @@ nav{
 	}
 
 	.tagline{
-		width: 80%;
+		width: 100%;
 		font-size: 42px;
+		margin-top: 150px;
 	}
 
 	.product{
